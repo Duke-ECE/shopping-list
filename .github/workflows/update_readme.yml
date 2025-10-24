@@ -1,0 +1,56 @@
+name: Update README with Shopping List
+
+on:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - main
+
+permissions:
+  contents: write   # 允许 Actions 提交变更
+
+jobs:
+  update-readme:
+    name: 🧾 Generate README from YAML files
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ 检出仓库
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2️⃣ 安装 Python 环境
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # 3️⃣ 安装依赖
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      # 4️⃣ 运行更新脚本
+      - name: Generate updated README
+        run: |
+          echo "🛠️ Generating README from YAML..."
+          python scripts/update_readme.py
+
+      # 5️⃣ 如果脚本失败，立即中止并显示错误信息
+      - name: Verify script execution
+        if: ${{ failure() }}
+        run: |
+          echo "::error::❌ README update failed. Please ensure README.md contains the required placeholders:"
+          echo "<!-- SHOPPING_TABLE_START --> and <!-- SHOPPING_TABLE_END -->"
+          exit 1
+
+      # 6️⃣ 提交更改
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add README.md
+          git diff --quiet && echo "✅ No changes detected, skipping commit." || (
+            git commit -m "📝 Auto-update README after merge [skip ci]" &&
+            git push
+          )
