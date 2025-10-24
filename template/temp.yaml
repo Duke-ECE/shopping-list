@@ -1,0 +1,11 @@
+category: my_category
+display_name: "my_name / 类别名称"
+last_updated: 2025-10-24
+
+items:
+  - name: TestItem
+    quantity: 1
+    requester: test
+    assignee: ""
+    status: needed
+    note: "For testing"

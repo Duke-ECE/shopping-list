@@ -16,3 +16,10 @@ items:
     assignee: ""
     status: needed
     note: "我要组双屏"
+    
+  - name: TestItem
+    quantity: 1
+    requester: test
+    assignee: ""
+    status: needed
+    note: "For testing CI"
