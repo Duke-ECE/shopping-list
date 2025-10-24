@@ -75,7 +75,7 @@ git checkout -b feature/add-groceries
 
 #### 🆕 新建类别清单
 
-`categories` 目录下存在一个模版文件 `template.yaml`。请 **复制** `categories/template.yaml` 并重命名为你的新购物清单的名字（不要直接修改模版文件本身）：
+`template` 目录下存在一个模版文件 `template.yaml`。请 **复制** `template/template.yaml` 到 `categories` 目录下并重命名为你的新购物清单的名字（不要直接修改模版文件本身）：
 
 ```bash
 cp categories/template.yaml categories/my_new_list.yaml
