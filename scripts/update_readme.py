@@ -54,6 +54,9 @@ def update_readme(table_md):
     print("✅ README.md 已更新")
 
 def main():
+    print("📂 Current working directory:", os.getcwd())
+    print("📄 Target README exists:", os.path.exists("README.md"))
+
     items = load_all_items()
     md_table = generate_table(items)
     now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
