@@ -60,6 +60,8 @@ def main():
     items = load_all_items()
     md_table = generate_table(items)
     now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    print(f"📊 Loaded {len(items)} total items from YAML files.")
+
 
     # 在表格结尾添加更新时间
     md_table += f"\n\n🕒 *Last updated: {now} by GitHub Actions*"
