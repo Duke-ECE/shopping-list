@@ -15,10 +15,15 @@
 <!-- SHOPPING_TABLE_START -->
 | 类别 | 物品 | 数量 | 发起人 | 领取人 | 状态 | 备注 |
 |------|------|-------|----------|----------|--------|--------|
+| electronics | 无线鼠标 | 1 | 李昕 | 谢海林 | ⏳ pending | 最好是罗技的 |
+| electronics | 27寸显示器 | 1 | 谢海林 | (unassigned) | ❌ needed | 我要组双屏 |
 | groceries | 牛奶 | 2 箱 | 谢海林 | 谢海林 | ✅ done | 从山姆买的 |
 | groceries | 面包 | 1 袋 | 李昕 | (unassigned) | ⏳ pending |  |
+| office | A4 打印纸 | 300 张 | 谢海林 | (unassigned) | ✅ done | 从打印机偷的 |
+| office | 白板笔 | 5 | 谢海林 | (unassigned) | ❌ needed |  |
+| test | TestItem | 1 | test | (unassigned) | ❌ needed | For testing CI |
 
-🕒 *Last updated: 2025-10-24 23:57:14 by GitHub Actions*
+🕒 *Last updated: 2025-10-25 01:05:33 by GitHub Actions*
 <!-- SHOPPING_TABLE_END -->
 
 ---
