@@ -1,0 +1,18 @@
+category: groceries
+display_name: "🥦 Groceries / 日用品"
+last_updated: 2025-10-24
+
+items:
+  - name: 牛奶
+    quantity: 2 箱
+    requester: 谢海林
+    assignee: 谢海林
+    status: done
+    note: "从山姆买的"
+
+  - name: 面包
+    quantity: 1 袋
+    requester: 李昕
+    assignee: ""
+    status: pending
+    note: ""
