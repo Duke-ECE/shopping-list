@@ -1,0 +1,12 @@
+category: test
+display_name: "Test / 测试"
+last_updated: 2025-10-24
+
+items:
+  
+  - name: TestItem
+    quantity: 1
+    requester: test
+    assignee: ""
+    status: needed
+    note: "For testing CI"
