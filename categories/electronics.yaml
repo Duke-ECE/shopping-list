@@ -1,0 +1,18 @@
+category: electronics
+display_name: "💻 Electronics / 电子产品"
+last_updated: 2025-10-24
+
+items:
+  - name: 无线鼠标
+    quantity: 1
+    requester: 李昕
+    assignee: 谢海林
+    status: pending
+    note: "最好是罗技的"
+
+  - name: 27寸显示器
+    quantity: 1
+    requester: 谢海林
+    assignee: ""
+    status: needed
+    note: "我要组双屏"
