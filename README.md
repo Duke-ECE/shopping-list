@@ -155,7 +155,8 @@ git push origin feature/add-groceries
 5. 等待 Maintainer 审核。
 
 > [!warning]
-> 在每次你提交 Pull Request 前，都应该将源仓库同步到你的 fork 仓库以同步任何其他人的修改。
+> 1. 在每次你提交 Pull Request 前，都应该将源仓库同步到你的 fork 仓库以同步任何其他人的修改。
+> 2. 请务必将你的 fork 仓库推送到源仓库的 `dev` 分支。
 
 ### 7️⃣ 代码审核与合并（Code Review & Merge）
 
