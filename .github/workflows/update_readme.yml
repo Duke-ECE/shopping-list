@@ -47,6 +47,8 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add README.md
+          echo "🔍 Checking diff..."
+          git diff README.md || true
           git diff --quiet && echo "✅ No changes detected, skipping commit." || (
             git commit -m "📝 Auto-update README after merge [skip ci]" &&
             git push
