@@ -7,12 +7,19 @@ items:
     quantity: 2 箱
     requester: 谢海林
     assignee: 谢海林
-    status: done
-    note: "从山姆买的"
-
-  - name: 面包
-    quantity: 1 袋
-    requester: 李昕
-    assignee: ""
     status: pending
-    note: ""
+    note: "从山姆买"
+
+  - name: 洗碗布
+    quantity: 2 个
+    requester: 谢海林
+    assignee: 谢海林
+    status: pending
+    note: "从山姆买"
+
+  - name: 零食
+    quantity: 待定
+    requester: 谢海林
+    assignee: 谢海林
+    status: pending
+    note: "从山姆买"
