@@ -13,9 +13,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
+      - name: Normalize line endings
+        run: |
+          git config core.autocrlf input
+          
       # 1️⃣ 检出仓库
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # ✅ 拉取完整历史，防止 diff 失效
 
       # 2️⃣ 安装 Python 环境
       - name: Setup Python
@@ -32,6 +39,11 @@ jobs:
         run: |
           echo "🛠️ Generating README from YAML..."
           python scripts/update_readme.py
+
+      - name: Preview diff before commit
+        run: |
+          echo "🔍 Diff preview after update:"
+          git diff README.md || true
 
       # 5️⃣ 如果脚本失败，立即中止并显示错误信息
       - name: Verify script execution
