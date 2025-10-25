@@ -18,8 +18,9 @@
 | groceries | 牛奶 | 2 箱 | 谢海林 | 谢海林 | ⏳ pending | 从山姆买 |
 | groceries | 洗碗布 | 2 个 | 谢海林 | 谢海林 | ⏳ pending | 从山姆买 |
 | groceries | 零食 | 待定 | 谢海林 | 谢海林 | ⏳ pending | 从山姆买 |
+| groceries | 泡面 | 待定 | yzc | yzc | ⏳ pending | 从淘宝买 |
 
-🕒 *Last updated: 2025-10-25 01:14:35 by GitHub Actions*
+🕒 *Last updated: 2025-10-25 13:30:47 by GitHub Actions*
 <!-- SHOPPING_TABLE_END -->
 
 ---
