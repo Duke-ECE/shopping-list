@@ -23,3 +23,10 @@ items:
     assignee: 谢海林
     status: pending
     note: "从山姆买"
+
+  - name: 泡面
+    quantity: 待定
+    requester: yzc
+    assignee: yzc
+    status: pending
+    note: "从淘宝买"
