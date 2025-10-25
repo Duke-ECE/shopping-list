@@ -14,10 +14,6 @@ jobs:
 
     steps:
 
-      - name: Normalize line endings
-        run: |
-          git config core.autocrlf input
-          
       # 1️⃣ 检出仓库
       - name: Checkout repository
         uses: actions/checkout@v4
