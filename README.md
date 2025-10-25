@@ -22,8 +22,12 @@
 | office | A4 打印纸 | 300 张 | 谢海林 | (unassigned) | ✅ done | 从打印机偷的 |
 | office | 白板笔 | 5 | 谢海林 | (unassigned) | ❌ needed |  |
 | test | TestItem | 1 | test | (unassigned) | ❌ needed | For testing CI |
+| test | TestItem2 | 1 | test | (unassigned) | ❌ needed | For testing CI |
+| test | TestItem3 | 1 | test | (unassigned) | ❌ needed | For testing CI |
+| test | TestItem4 | 1 | test | (unassigned) | ❌ needed | For testing CI |
+| test | TestItem5 | 1 | test | (unassigned) | ❌ needed | For testing CI |
 
-🕒 *Last updated: 2025-10-25 01:05:33 by GitHub Actions*
+🕒 *Last updated: 2025-10-25 01:06:17 by GitHub Actions*
 <!-- SHOPPING_TABLE_END -->
 
 ---
