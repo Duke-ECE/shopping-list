@@ -10,8 +10,15 @@ items:
     assignee: ""
     status: needed
     note: "For testing CI"
-    
+
   - name: TestItem2
+    quantity: 1
+    requester: test
+    assignee: ""
+    status: needed
+    note: "For testing CI"
+
+  - name: TestItem3
     quantity: 1
     requester: test
     assignee: ""
